@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.iframe {
+  background-color: #3faf82;
+  width: 400px;
+  height: 400px;
+}
+.center {
+  width: 100px;
+  height: 100px;
+}
+
+.line {
+  height: 20px;
+  margin: 5px 0;
+  position: absolute;
+
+  background-color: white;
+  box-shadow: 0 0 13px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  transition: 0.7s;
+}
+.one {
+  top: 0;
+}
+.two {
+  top: 30px;
+}
+.three {
+  top: 60px;
+}
+.left {
+  transform: rotate(45deg);
+  top: 30px;
+}
+.right {
+  transform: rotate(135deg);
+  top: 30px;
+}
+.middle {
+  opacity: 0;
+}
